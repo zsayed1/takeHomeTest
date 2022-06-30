@@ -12,4 +12,3 @@ terraform {
 provider "aws" {
   region = var.region
 }
-//  // length(var.region) > 0 && substr(var.region, 0, 2) == "us-"
